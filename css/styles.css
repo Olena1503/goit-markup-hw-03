@@ -1,0 +1,240 @@
+:root {
+    --navyblue: #2E2F42;
+    --iris: #4D5AE5;
+    --ocean: #404BBF;
+    --white: #FFFFFF;
+    --slate: #434455;
+    --cloud: #F4F4FD;
+}
+body {
+    font-family: "Roboto", sans-serif;
+    color: var(--slate);
+    background-color: var(--white);
+}
+.link {
+    text-decoration: none;
+}
+.list {
+    list-style-type: none;
+}
+
+/**----HEADER----------------------------------------------*/
+
+.header-logo {
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+ color:var(--iris);
+}
+.header-logo-dark {
+    color: var(--navyblue);
+}
+.header-menu-link {
+    color: var(--navyblue);
+    font-size: 16px;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+.header-menu-link:hover,
+.header-menu-link:focus {
+    color: var(--ocean)
+}
+.header-address{
+    font-style: normal;
+}
+.header-adrress-link {
+    color: var(--slate);
+    font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+.header-adrress-link:hover,
+.header-adrress-link:focus {
+    color: var(--ocean);
+}
+
+/**----HERO----------------------------------------------*/
+
+
+.hero {
+    background-color: var(--navyblue);
+}
+.hero-title {
+    font-size: 56px;
+font-weight: 700;
+line-height: 1.07;
+letter-spacing: 0.02em;
+color: var(--white);
+text-align: center;
+}
+.hero-btn {
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: var(--white);
+background-color: #4D5AE5;
+cursor: pointer;
+}
+.hero-btn:hover,
+.hero-btn:focus {
+    background-color: #404BBF;
+}
+
+/**---ADVANTAGES----------------------------------------------*/
+
+.advantages {
+}
+.advantages-list {
+}
+.advantages-item {
+}
+.advantages-subtitle {
+    font-size: 20px;
+font-weight: 500;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: var(--navyblue);
+}
+.advantages-item-text {
+    font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--slate);
+}
+/**----HERO----------------------------------------------*/
+
+.doing {
+}
+.doing-title {
+    font-size: 36px;
+font-weight: 700;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: var(--navyblue);
+text-align: center;
+}
+.doihng-list {
+}
+.doihg-item {
+}
+.doing-img {
+}
+
+/**----TEAM----------------------------------------------*/
+
+.team { background-color: var(--cloud)
+}
+.team-title {
+    font-size: 36px;
+font-weight: 700;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: var(--navyblue,);
+text-align: center;
+}
+.team-list {
+
+}
+.team-item {
+    background-color: var(--white);
+}
+.team-item-img {
+}
+.team-subtitle {
+    font-size: 20px;
+font-weight: 500;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: var(--navyblue);
+text-align: center;
+}
+.team-list-text {
+    font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--slate,);
+text-align: center;
+}
+/**----FOOTER----------------------------------------------*/
+
+.footer {
+    background-color: var(--navyblue);
+}
+.footer-logo {
+    color: var(--iris);
+    font-size: 18px;
+    font-family: "Raleway", sans-serif;
+font-weight: 800;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+.header-logo-wight {
+    color: var(--cloud);
+}
+.footer-text {
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--cloud);
+}
+
+/**----PORTFOLIO-btn----------------------------------------------*/
+.portfolio-filter-btn{
+
+}
+.portfolio-filter-item {
+
+}
+
+.filter-btn {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color:  #4d5ae5;
+text-align: center;
+background: #F4F4FD;
+cursor: pointer;
+}
+.filter-btn:hover,
+.filter-btn:focus {
+  color: #FFFFFF;
+  background-color:  #404BBF;  
+}
+/**----GALARY----------------------------------------------*/
+
+
+.galary {
+}
+.galary-list {
+    list-style: none;
+}
+.galary-item {
+}
+.galary-link {
+}
+.galary-img {
+}
+.galary-subtitle {
+    font-size: 20px;
+font-weight: 500;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: var(--navyblue);
+}
+.galary-text {
+    font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--slate);
+}
