@@ -89,15 +89,14 @@ body {
     gap: 40px;  
 }
 .header-menu-link {
-    padding-top: 24px; 
-    padding-bottom: 24px;
-}
-.header-menu-link {
     color: var(--navyblue);
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: 0.02em;   
+    letter-spacing: 0.02em;
+    display: block;  
+    padding-top: 24px; 
+    padding-bottom: 24px; 
 }
 .header-menu-link:hover,
 .header-menu-link:focus {
@@ -192,7 +191,7 @@ color: var(--slate);
 /**----DOING----------------------------------------------*/
 
 .doing {
-    padding-top: 120px;
+    padding-top: 0;
     padding-bottom: 120px;
 }
 .doing-title {
@@ -362,7 +361,6 @@ font-weight: 500;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: var(--navyblue);
-padding-left: 16px;
 margin-bottom: 8px;
 }
 .galary-text {
@@ -370,6 +368,4 @@ margin-bottom: 8px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--slate);
-padding-bottom: 32px;
-padding-left: 16px;
 }
